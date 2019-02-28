@@ -3,6 +3,6 @@ node_modules/
 .idea/
 yarn.lock
 yarn-error.log
-dist
+es
 .size-snapshot.json
 stats.html

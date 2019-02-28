@@ -4,6 +4,11 @@
   "description": "Redux building blocks for TubePress",
   "author": "Eric Hough <eric@tubepress.com>",
   "license": "MIT",
+  "module": "es/index.js",
+  "files" : [
+    "es",
+    "src"
+  ],
   "dependencies": {
     "@redux-dynostore/core"    : "^2.0",
     "immer"                    : "^2.0",
@@ -13,7 +18,8 @@
     "redux-thunk"              : "^2.3"
   },
   "devDependencies": {
-    "@tubepress/dev-pack-base": "^1.0"
+    "@tubepress/dev-pack-rollup": "^1.0",
+    "@babel/plugin-transform-runtime" : "^7.3"
   },
   "browserslist": [
     "extends @tubepress/browserslist-config"
@@ -22,5 +28,12 @@
     "extends": [
       "@tubepress"
     ]
-  }
+  },
+  "scripts": {
+    "clean"      : "rimraf es",
+    "build"      : "yarn clean && npx rollup -c",
+    "production" : "NODE_ENV=production yarn build",
+    "profile"    : "NODE_ENV=profile    yarn build && google-chrome stats.html"
+  },
+  "sideEffects": false
 }

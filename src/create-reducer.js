@@ -1,4 +1,4 @@
-import produce from 'immer';
+import { produce } from 'immer';
 
 export default (initialState, actionsMap) => (state = initialState, action = undefined) => produce(state, (draft) => {
 
