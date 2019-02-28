@@ -1,0 +1,25 @@
+{
+  "name": "@tubepress/redux",
+  "version": "1.0.0",
+  "description": "Redux building blocks for TubePress",
+  "author": "Eric Hough <eric@tubepress.com>",
+  "dependencies": {
+    "@redux-dynostore/core"    : "^2.0",
+    "immer"                    : "^2.0",
+    "redux"                    : "^4.0",
+    "redux-devtools-extension" : "^2.13",
+    "redux-pack"               : "^0.1",
+    "redux-thunk"              : "^2.3"
+  },
+  "devDependencies": {
+    "@tubepress/dev-pack-base": "^1.0"
+  },
+  "browserslist": [
+    "extends @tubepress/browserslist-config"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "@tubepress"
+    ]
+  }
+}
