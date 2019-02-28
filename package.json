@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Redux building blocks for TubePress",
   "author": "Eric Hough <eric@tubepress.com>",
+  "license": "MIT",
   "dependencies": {
     "@redux-dynostore/core"    : "^2.0",
     "immer"                    : "^2.0",
