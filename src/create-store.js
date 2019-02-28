@@ -36,7 +36,7 @@ export default (isDebugging, isProduction) => {
 
     addReducers = (...reducers) => reduxStore.attachReducers(...reducers),
 
-    removeReducers = (...reducers) => reduxStore.detatchReducers(...reducers);
+    removeReducers = (...reducers) => reduxStore.detachReducers(...reducers);
 
   return {
 

@@ -1,6 +1,6 @@
 {
   "name": "@tubepress/redux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redux building blocks for TubePress",
   "author": "Eric Hough <eric@tubepress.com>",
   "license": "MIT",
