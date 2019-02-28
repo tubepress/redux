@@ -1,6 +1,6 @@
 {
   "name": "@tubepress/redux",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Redux building blocks for TubePress",
   "author": "Eric Hough <eric@tubepress.com>",
   "license": "MIT",
@@ -18,8 +18,7 @@
     "redux-thunk"              : "^2.3"
   },
   "devDependencies": {
-    "@tubepress/dev-pack-rollup": "^1.0",
-    "@babel/plugin-transform-runtime" : "^7.3"
+    "@tubepress/dev-pack-rollup": "^1.0"
   },
   "browserslist": [
     "extends @tubepress/browserslist-config"
